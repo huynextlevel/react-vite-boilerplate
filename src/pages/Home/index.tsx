@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { setCounter } from 'src/store/actions/app'
-import reactLogo from 'src/assets/react.svg'
+import { setCounter } from '@/store/actions/app'
+import reactLogo from '@/assets/react.svg'
 import viteLogo from '/vite.svg'
-import 'src/App.css'
+import '@/App.css'
 
 function Home() {
   const dispatch = useDispatch()

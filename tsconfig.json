@@ -28,7 +28,7 @@
 
     /* Paths */
     "paths": {
-      "src/*": ["./src/*"]
+      "@/*": ["./src/*"]
     },
   },
   "include": ["src"],

@@ -4,7 +4,7 @@ import {
 } from 'react'
 import { useLocation } from 'react-router-dom'
 
-import { withRouter } from 'src/hooks'
+import { withRouter } from '@/hooks'
 
 interface IProps {
   children: any
